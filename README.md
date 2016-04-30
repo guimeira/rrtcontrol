@@ -53,7 +53,7 @@ The panel on the right can be used to set the parameters of the algorithm. There
 ## Future work
 This application can be improved in several ways. New models can be added easily by implementing the `CarModel` interface. Support for different variations of the RRT would also be nice, but adding it would take a little bit more time. Finally, the nearest neighbor search is a simple naive search, which makes the algorithm much slower as the tree gets bigger. Using a KD-tree for the search would probably make it handle large numbers of nodes much better.
 
-I probably will not add any of those, but I will gladly accept pull requests with new features or bug fixes.
+I will gladly accept pull requests with new features or bug fixes.
 
 [Worcester Polytechnic Institute]: http://www.wpi.edu
 [Path Planning using a Dynamic Vehicle Model]: http://www.cs.cmu.edu/afs/cs/Web/People/motionplanning/reading/PlanningforDynamicVeh-1.pdf
